@@ -24,6 +24,6 @@ def doc2pdf(wordpath,pdfpath):
                 print("error")
                 return 1
 if __name__ == '__main__':
-    wordpath = "C:\\sun\\word\\nanning\\"#word存放路径
-    pdfpath = "C:\\sun\\word\\nanningpdf\\"#word转PDF后存放路径
+    wordpath = "C:\\Users\\qiaoyafeng\\Desktop\\各院校授课实录考评表\\各院校授课实录考评表"#word存放路径
+    pdfpath = "C:\\Users\\qiaoyafeng\\Desktop\\各院校授课实录考评表\\pdf"#word转PDF后存放路径
     doc2pdf(wordpath,pdfpath)
